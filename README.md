@@ -1,7 +1,7 @@
 # Car_fueling
 The car fueling problem.
+'''python
 
-"""
 def min_refills(d, stops, dist_with_full_tank):
     num_refills = 0
     current_refills = 0
@@ -17,4 +17,5 @@ def min_refills(d, stops, dist_with_full_tank):
         if current_refills < (d - 1):
             num_refills = num_refills + 1
     return num_refills
-    """
+    '''
+  
